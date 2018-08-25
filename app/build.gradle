@@ -4,7 +4,7 @@ android {
     compileSdkVersion 26
     defaultConfig {
         applicationId "com.coolweather.android"
-        minSdkVersion 21
+        minSdkVersion 22
         targetSdkVersion 26
         versionCode 1
         versionName "1.0"
@@ -20,7 +20,7 @@ android {
 
 dependencies {
 //    core-2.0.0.aar LitePal用于数据库进行操作 OkHttp 网路请求 GSON 解析JSON Glide 用于加载和展示图片
-    implementation fileTree(dir: 'libs', include: ['*.jar',"*.aar"])
+    implementation fileTree(dir: 'libs', include: ['*.jar', "*.aar"])
     implementation 'com.android.support:appcompat-v7:26.1.0'
     implementation 'com.android.support.constraint:constraint-layout:1.1.2'
     testImplementation 'junit:junit:4.12'
